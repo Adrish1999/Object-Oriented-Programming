@@ -69,6 +69,8 @@ class Program_01_Aggregation
         Student s2 = new Student("Manish","CSE",2); 
         Student s3 = new Student("John","ECE",1); 
         Student s4 = new Student("Rahul","ECE",2); 
+        Student s5 = new Student("Rohit","IT",1); 
+        Student s6 = new Student("Virat","IT",2); 
 
         List<Student> cse_students = new ArrayList<Student>();
         cse_students.add(s1);
@@ -78,12 +80,19 @@ class Program_01_Aggregation
         ece_students.add(s3);
         ece_students.add(s4);
 
+        List<Student> it_students = new ArrayList<Student>();
+        it_students.add(s5);
+        it_students.add(s6);
+
         Department CSE = new Department("CSE",cse_students);
         Department ECE = new Department("ECE",ece_students);
+        Department IT = new Department("IT",it_students);
+
 
         List<Department> depts = new ArrayList<Department>();
         depts.add(CSE);
         depts.add(ECE);
+        depts.add(IT);
 
         Institute inst = new Institute("STCET",depts);
         System.out.println("Total number of students in STCET is "+inst.getTotalStudentsInInstitute());
