@@ -30,7 +30,7 @@ class Student
 } 
 
 
-class Program_01
+class Program_01_Association
 { 
     public static void main (String[] args) throws IOException
     { 
