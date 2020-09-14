@@ -1,0 +1,60 @@
+Questionnaires
+
+
+1. What is the difference between aggregation and composition ?
+
+Answer :- Composition and Aggregation are the two forms of association. The main grounds of difference between the two are :-
+
+Dependency: Aggregation implies a relationship where the child can exist independently of the parent. For example, Bank and Employee, delete the Bank and the Employee still exist. whereas Composition implies a relationship where the child cannot exist independent of the parent. Example: Human and heart, heart don’t exist separate to a Human
+
+
+Type of Relationship: Aggregation relation is “has-a” and composition is “part-of” relation.
+
+
+Type of association: Composition is a strong Association whereas Aggregation is a weak Association.
+
+
+
+
+
+
+
+
+2. Does a constructor has to be created with the creation of an object ?
+
+Answer :- No , a constructor does not have to be created with the creation of an object.
+The object is created by new operator, and not by the invocation of the constructor itself. So, the object is already created before any constructor is invoked.
+
+Constructor is just used to initialize the state of the object created. It does not create an object itself.
+
+
+
+
+
+
+
+
+3. What is default and parameterized constructor ?
+
+Answer :- A constructor is called "Default Constructor" when it doesn't have any parameter.The default constructor is used to provide the default values to the object like 0, null, etc., depending on the type.
+
+Syntax of default constructor:
+<class_name>()
+{
+}  
+
+A constructor which has a specific number of parameters is called a parameterized constructor.The parameterized constructor is used to provide different values to distinct objects. However, we can provide the same values also.
+
+
+
+
+
+
+
+4. Explain the three specific characteristics of an object.
+
+Answer :- The three specific characteristics of an object are :-
+
+i) State : it has various properties, which might change.
+ii) Behaviour : it can do things and can have things done to it.
+iii) Identity :  each object is a distinct entity.

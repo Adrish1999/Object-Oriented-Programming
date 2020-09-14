@@ -22,8 +22,8 @@ class Program_04
     public static void main(String args[])
     {
         Piggy_bag pb = new Piggy_bag();
-        System.out.println("Initial balance in the piggy bag is "+pb.ShowBalance());
+        System.out.println("Initial balance in the piggy bag is Rs."+pb.ShowBalance());
         pb.AddBalance(500.0);
-        System.out.println("Balance in the piggy bank after adding Rs 500 is "+pb.ShowBalance());
+        System.out.println("Balance in the piggy bank after adding Rs 500 is Rs."+pb.ShowBalance());
     }
 }
