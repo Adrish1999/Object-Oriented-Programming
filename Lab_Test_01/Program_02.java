@@ -1,3 +1,5 @@
+//Java program to show the name , dept, year and st-id of 5 students using array of objects.
+
 import java.io.*;
 
 class Student
