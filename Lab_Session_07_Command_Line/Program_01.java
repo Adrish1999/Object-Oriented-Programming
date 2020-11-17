@@ -10,7 +10,7 @@ class Program_01
         int max = Integer.parseInt(args[1]);
         int min = Integer.parseInt(args[1]);
         System.out.println("Value of n entered by the user is : "+n);
-        for(int i = 2; i < n; i++)
+        for(int i = 2; i <= n; i++)
         {
             if(Integer.parseInt(args[i]) > max)
             {
@@ -22,7 +22,7 @@ class Program_01
             }
         }
         System.out.println(n+" numbers entered by the user are :");
-        for(int i = 1; i < n; i++)
+        for(int i = 1; i <= n; i++)
         {
             System.out.println(Integer.parseInt(args[i]));
         }
