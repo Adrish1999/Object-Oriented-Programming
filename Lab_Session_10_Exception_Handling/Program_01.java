@@ -29,10 +29,13 @@ class Program_01
                 System.out.print("The string is not JAVA"); 
         } 
 
+        //First catch block
         catch(NullPointerException e) 
         { 
             System.out.print("NullPointer Exception Caught"); 
         } 
+
+        //Second catch block
         catch(ArithmeticException ob)
         {
             System.out.println("Arithmetic Exception caught");
