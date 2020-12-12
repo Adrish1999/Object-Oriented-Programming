@@ -6,7 +6,7 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
-class DateTime {
+class Result {
 
     /*
      * Complete the 'findDay' function below.
@@ -33,7 +33,7 @@ class DateTime {
 
 }
 
-public class Solution {
+public class DateTime {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
